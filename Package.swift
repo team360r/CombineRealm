@@ -14,7 +14,7 @@ let package = Package(
             targets: ["CombineRealm"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/realm/realm-cocoa.git", .upToNextMajor(from: "5"))
+        .package(url: "https://github.com/realm/realm-cocoa.git", .upToNextMajor(from: "10"))
     ],
     targets: [
         .target(
